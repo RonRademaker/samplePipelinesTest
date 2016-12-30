@@ -17,13 +17,7 @@ jobs:
   - name: dv-test-ecs
     type: deploy
     steps:
-      - IN: dv-man
-#      - IN: dv-params
-      - IN: plus-lb      
-        applyTo:
-          - manifest: dv-man
-            image: dv-img
-            port: 80
+      - IN: dv-man     
       - IN: env-test-ecs
       - TASK: managed
 
