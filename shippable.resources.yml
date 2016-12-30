@@ -45,7 +45,7 @@ resources:
     pointer:
       sourceName: "arn:aws:elasticloadbalancing:eu-west-1:980171072448:targetgroup/Plus/06ce9658e3e9b575"
       method: application      
-      role: ata-travis
+      role: shippable-role-to-allow-ecs-access
 
 
 #######1: EOF Create DV pipeline
