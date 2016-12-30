@@ -20,7 +20,7 @@ jobs:
       - IN: dv-man
 #      - IN: dv-params
       - IN: plus-lb      
-      applyTo:
+        applyTo:
           - manifest: dv-man
             image: dv-img
             port: 80
