@@ -39,5 +39,13 @@ resources:
     pointer:
       sourceName : "Plus"
       region: "eu-west-1"
+      
+resources:
+  - name: plus-lb                              #required
+    type: loadBalancer                          #required
+    pointer:
+      sourceName: "arn:aws:elasticloadbalancing:eu-west-1:980171072448:loadbalancer/app/Plus/cfc77d0d844ffb19"
+      method: application      
+
 
 #######1: EOF Create DV pipeline
