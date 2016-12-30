@@ -43,7 +43,7 @@ resources:
   - name: plus-lb                              #required
     type: loadBalancer                          #required
     pointer:
-      sourceName: "arn:aws:elasticloadbalancing:eu-west-1:980171072448:loadbalancer/app/Plus/cfc77d0d844ffb19"
+      sourceName: "arn:aws:elasticloadbalancing:eu-west-1:980171072448:targetgroup/Plus/06ce9658e3e9b575"
       method: application      
 
 
