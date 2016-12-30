@@ -40,7 +40,6 @@ resources:
       sourceName : "Plus"
       region: "eu-west-1"
       
-resources:
   - name: plus-lb                              #required
     type: loadBalancer                          #required
     pointer:
