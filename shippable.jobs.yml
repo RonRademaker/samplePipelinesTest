@@ -8,8 +8,7 @@ jobs:
     type: manifest
     steps:
       - IN: dv-img
-      - IN: dv-img-opts
-      - IN: plus-lb  
+      - IN: dv-img-opts  
       - TASK: managed
 
 #/ manifest gen for VISUALIZER
@@ -20,6 +19,7 @@ jobs:
     steps:
       - IN: dv-man
 #      - IN: dv-params
+      - IN: plus-lb
       - IN: env-test-ecs
       - TASK: managed
 
