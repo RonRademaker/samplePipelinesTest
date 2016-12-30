@@ -9,7 +9,7 @@ resources:
     type: image
     integration: Tutorial Ron
     pointer:
-      sourceName: tutorial-ron
+      sourceName: 980171072448.dkr.ecr.eu-west-1.amazonaws.com/tutorial-ron
       isPull: false
     #make sure this seed version exists in your registry account
     seed:
