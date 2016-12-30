@@ -19,12 +19,12 @@ jobs:
     steps:
       - IN: dv-man
 #      - IN: dv-params
-      - IN: plus-lb
-      - IN: env-test-ecs
+      - IN: plus-lb      
       applyTo:
           - manifest: dv-man
             image: dv-img
-            port: 0
+            port: 80
+      - IN: env-test-ecs
       - TASK: managed
 
 # / TEST deployment for VISUALIZER to Amazon ECS
