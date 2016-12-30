@@ -13,7 +13,7 @@ resources:
       isPull: false
     #make sure this seed version exists in your registry account
     seed:
-      versionName: master.3
+      versionName: master.4
 
 # Docker Image Options for VISUALIZER
   - name: dv-img-opts
@@ -37,7 +37,7 @@ resources:
     type: cluster
     integration: Tutorial Ron ECS
     pointer:
-      sourceName : "demo-shippable-ecs-test"
+      sourceName : "Plus"
       region: "eu-west-1"
 
 #######1: EOF Create DV pipeline
