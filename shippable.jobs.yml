@@ -9,6 +9,7 @@ jobs:
     steps:
       - IN: dv-img
       - IN: dv-img-opts
+      - IN: plus-lb  
       - TASK: managed
 
 #/ manifest gen for VISUALIZER
